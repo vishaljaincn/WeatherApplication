@@ -18,7 +18,7 @@ public class WeatherService {
     private String token;
 
     //private String BaseURL="api.openweathermap.org/data/2.5/forecast";
-    //private String token="78eed9fdcd4566cebb60147ecec36602";
+    //private String token="";
 
     RestTemplate restTemplate = new RestTemplate();
     WeatherResponseDTO wd=null;
